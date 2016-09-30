@@ -1,0 +1,18 @@
+== barcode_splitter_multi Galaxy Wrapper ==
+
+This is a Galaxy wrapper for the barcode_splitter_multi tool.
+
+** Installation **
+
+Installation can be performed from the galaxy tool shed.
+
+Otherwise, make sure barcode_splitter.py and barcode_splitter_galaxy_wrapper.sh are in the path.
+Move the test data files to your galaxy root test-data.
+Move the xml files to a subdirectory of your tools directory and add lines in tool_conf.xml to point to them.
+Restart the Galaxy server.
+
+** Attribution **
+
+The package and associated documentation can be found at: https://bitbucket.org/hepcat72/barcode_splitter_multi
+
+The galaxy wrapper code was written by Robert Leach (rleach@princeton.edu), Lewis-Sigler Institute for Integrative Genomics, Princeton University.
